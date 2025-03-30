@@ -1,0 +1,38 @@
+We are using Github to track the code and Manage versions of the code, which is a program.
+
+The Github Remote URL is Called as Origin which is the main of the remote repository.
+
+To clone the remote repository in local: git clone https://github.com/gdayaash/git-practice.git
+                                                                   |
+                                                                   V
+                                                          URL of the repository
+
+Basic Steps to Add an file or piece of code after every change or creation.
+
+Insert > Add > Commit > Push
+
+1. First check the Git Status : git status 
+
+-> It will show the branch we are currently operating and also the status of the Files whether it Tracked or Untracked.
+
+2. Second add the Changes to queue (Staging Area): git add test1.txt
+                                                              |
+                                                              V
+                                                           File Name  
+
+-> It will track the changes done and add them to staging area. But, the changes are yet to be committed.
+
+3. Before pushing it to the remote repository, which is in web. For that: git commit -m "Text about the commit"
+                                                                                      |            
+                                                                                      V            
+                                                                             m stands for message 
+This commit command will fund the changes to local git folder.
+
+4. From here the push command: git push origin main 
+                                                 |
+                                                 V
+                                             Branch Name 
+
+
+-> This command will update the changes that are tracked and committed to the local git folder to Remote Git Repository in Web.
+
