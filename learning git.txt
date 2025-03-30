@@ -36,3 +36,14 @@ This commit command will fund the changes to local git folder.
 
 -> This command will update the changes that are tracked and committed to the local git folder to Remote Git Repository in Web.
 
+
+For Deleting a file and to add that action to remote repository, We need to use the same way git add;
+
+->This command git add filename
+                  |
+                  V
+         This add doesn't means for adding. 
+It is the command that say there is something changed and sent.
+
+
+
